@@ -1,0 +1,35 @@
+@import 'header';
+@import 'page';
+@import 'promo';
+@import 'wiating';
+@import 'main';
+@import 'img';
+@import 'input';
+@import 'section';
+@import 'footer';
+@import 'media';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1036px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}

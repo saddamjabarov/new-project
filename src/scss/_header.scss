@@ -1,0 +1,38 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  &__container {
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+  }
+  &__logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252b42;
+  }
+  &__menu {
+    margin: 0 0 0 132px;
+  }
+  &__list {
+    display: flex;
+    // flex-wrap: wrap;
+  }
+  &__item {
+    margin-right: 21px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #737373;
+  }
+}

@@ -1,0 +1,126 @@
+.footer {
+  height: 488px;
+  background: #fafafa;
+  position: relative;
+
+  &__promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252b42;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+    color: #737373;
+  }
+  .btn {
+    padding: 15px 40px;
+    width: 160px;
+    height: 58px;
+    background: #ff7b47;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__wrapper {
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 195px;
+      height: 272px;
+      position: absolute;
+      top: 145px;
+      left: 0;
+      width: 100%;
+      background: #17213c;
+    }
+  }
+  &__label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px;
+    color: #ffffff;
+  }
+  &__list {
+    width: 152px;
+    height: 170px;
+    margin-top: 20px;
+    &-list {
+      position: relative;
+      width: 152px;
+      height: 170px;
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+  }
+  &__li {
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 24px;
+    color: #ffffff;
+    &-li {
+      font-weight: 600;
+      font-size: 14px;
+      padding-bottom: 10px;
+      line-height: 24px;
+      color: #ffffff;
+      &-1 {
+        &::before {
+          content: '';
+          display: block;
+          width: 24px;
+          height: 24px;
+          position: absolute;
+          top: 0;
+          left: -10px;
+          background: #8ec2f2;
+          background: url('./../icons/Vector\ \(7\).png') center (center/cover)
+            no-repeat;
+        }
+      }
+      &-2 {
+        &::before {
+          content: '';
+          display: block;
+          width: 24px;
+          height: 24px;
+          position: absolute;
+          top: 36px;
+          left: -10px;
+          background: #8ec2f2;
+          background: url('./../icons/bx_bx-map.png') center (center/cover)
+            no-repeat;
+        }
+      }
+      &-3 {
+        &::before {
+          content: '';
+          display: block;
+          width: 24px;
+          height: 24px;
+          position: absolute;
+          top: 70px;
+          left: -10px;
+          background: #8ec2f2;
+          background: url('./../icons/Vector\ \(6\).png') center (center/cover)
+            no-repeat;
+        }
+      }
+    }
+  }
+}

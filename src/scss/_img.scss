@@ -1,0 +1,25 @@
+.img {
+  height: 339px;
+  background: hsl(0, 0%, 98%);
+  padding: 58px;
+  position: relative;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    width: 153px;
+    height: 34px;
+  }
+  .divider {
+    width: 100%;
+    position: absolute;
+    top: 89px;
+    left: 0;
+    height: 77px;
+    background-color: #252b42;
+    margin-top: 173px;
+  }
+}
